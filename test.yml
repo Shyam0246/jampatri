@@ -1,0 +1,7 @@
+---
+- hosts: web
+  gether_facts: true
+  tasks:
+  - debug:
+      msg: hello
+
